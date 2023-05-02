@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos dos clientes</title>
+    <link rel="stylesheet" href="./src/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+        <img src="./src/imagens/logo.png" alt="logo_conclusao">
+        <h1>
+            Agenda de contatos dos clientes
+        </h1>
+    
+        </header>
+        <form id="form-clientes" >
+            <input type="text" id="nome-cliente" required placeholder="nome do cliente">
+            <input type="number" id="telefone-cliente" required placeholder="telefone do cliente">
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing="0" >
+            <thead>
+                <tr>
+                    <th>
+                        Nome do Cliente
+                    </th>
+                    <th>
+                        telefone do cliente
+                    </th>
+                </tr>
+            </thead>
+                <tbody>
+                </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
